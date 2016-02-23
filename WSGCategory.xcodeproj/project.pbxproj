@@ -15,6 +15,9 @@
 		CE96876A1C7C47E40054A45E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9687681C7C47E40054A45E /* LaunchScreen.storyboard */; };
 		CE9687751C7C47E40054A45E /* WSGCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9687741C7C47E40054A45E /* WSGCategoryTests.m */; };
 		CE9687801C7C47E40054A45E /* WSGCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE96877F1C7C47E40054A45E /* WSGCategoryUITests.m */; };
+		CE9687901C7C49380054A45E /* UIView+WSGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CE96878F1C7C49380054A45E /* UIView+WSGAdd.m */; };
+		CE9687931C7C49580054A45E /* UIButton+WSGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9687921C7C49580054A45E /* UIButton+WSGAdd.m */; };
+		CE9687961C7C49AD0054A45E /* UIColor+WSGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9687951C7C49AD0054A45E /* UIColor+WSGAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		CE96877B1C7C47E40054A45E /* WSGCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WSGCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE96877F1C7C47E40054A45E /* WSGCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSGCategoryUITests.m; sourceTree = "<group>"; };
 		CE9687811C7C47E40054A45E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE96878E1C7C49380054A45E /* UIView+WSGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WSGAdd.h"; sourceTree = "<group>"; };
+		CE96878F1C7C49380054A45E /* UIView+WSGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WSGAdd.m"; sourceTree = "<group>"; };
+		CE9687911C7C49580054A45E /* UIButton+WSGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WSGAdd.h"; sourceTree = "<group>"; };
+		CE9687921C7C49580054A45E /* UIButton+WSGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WSGAdd.m"; sourceTree = "<group>"; };
+		CE9687941C7C49AD0054A45E /* UIColor+WSGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WSGAdd.h"; sourceTree = "<group>"; };
+		CE9687951C7C49AD0054A45E /* UIColor+WSGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WSGAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		CE9687591C7C47E40054A45E /* WSGCategory */ = {
 			isa = PBXGroup;
 			children = (
+				CE96878D1C7C491D0054A45E /* Category */,
 				CE96875D1C7C47E40054A45E /* AppDelegate.h */,
 				CE96875E1C7C47E40054A45E /* AppDelegate.m */,
 				CE9687601C7C47E40054A45E /* ViewController.h */,
@@ -138,6 +148,19 @@
 				CE9687811C7C47E40054A45E /* Info.plist */,
 			);
 			path = WSGCategoryUITests;
+			sourceTree = "<group>";
+		};
+		CE96878D1C7C491D0054A45E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CE96878E1C7C49380054A45E /* UIView+WSGAdd.h */,
+				CE96878F1C7C49380054A45E /* UIView+WSGAdd.m */,
+				CE9687911C7C49580054A45E /* UIButton+WSGAdd.h */,
+				CE9687921C7C49580054A45E /* UIButton+WSGAdd.m */,
+				CE9687941C7C49AD0054A45E /* UIColor+WSGAdd.h */,
+				CE9687951C7C49AD0054A45E /* UIColor+WSGAdd.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9687901C7C49380054A45E /* UIView+WSGAdd.m in Sources */,
+				CE9687931C7C49580054A45E /* UIButton+WSGAdd.m in Sources */,
 				CE9687621C7C47E40054A45E /* ViewController.m in Sources */,
 				CE96875F1C7C47E40054A45E /* AppDelegate.m in Sources */,
 				CE96875C1C7C47E40054A45E /* main.m in Sources */,
+				CE9687961C7C49AD0054A45E /* UIColor+WSGAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +522,7 @@
 				CE9687861C7C47E40054A45E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE9687871C7C47E40054A45E /* Build configuration list for PBXNativeTarget "WSGCategoryTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +531,7 @@
 				CE9687891C7C47E40054A45E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE96878A1C7C47E40054A45E /* Build configuration list for PBXNativeTarget "WSGCategoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +540,7 @@
 				CE96878C1C7C47E40054A45E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
