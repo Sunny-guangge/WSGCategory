@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0D495A1C87E51A0082F6F5 /* UIImage+WSGAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0D49591C87E51A0082F6F5 /* UIImage+WSGAdd.m */; };
 		CE96875C1C7C47E40054A45E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE96875B1C7C47E40054A45E /* main.m */; };
 		CE96875F1C7C47E40054A45E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE96875E1C7C47E40054A45E /* AppDelegate.m */; };
 		CE9687621C7C47E40054A45E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9687611C7C47E40054A45E /* ViewController.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE0D49581C87E51A0082F6F5 /* UIImage+WSGAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WSGAdd.h"; sourceTree = "<group>"; };
+		CE0D49591C87E51A0082F6F5 /* UIImage+WSGAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WSGAdd.m"; sourceTree = "<group>"; };
 		CE9687571C7C47E40054A45E /* WSGCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSGCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE96875B1C7C47E40054A45E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE96875D1C7C47E40054A45E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -159,6 +162,8 @@
 				CE9687921C7C49580054A45E /* UIButton+WSGAdd.m */,
 				CE9687941C7C49AD0054A45E /* UIColor+WSGAdd.h */,
 				CE9687951C7C49AD0054A45E /* UIColor+WSGAdd.m */,
+				CE0D49581C87E51A0082F6F5 /* UIImage+WSGAdd.h */,
+				CE0D49591C87E51A0082F6F5 /* UIImage+WSGAdd.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 				CE9687621C7C47E40054A45E /* ViewController.m in Sources */,
 				CE96875F1C7C47E40054A45E /* AppDelegate.m in Sources */,
 				CE96875C1C7C47E40054A45E /* main.m in Sources */,
+				CE0D495A1C87E51A0082F6F5 /* UIImage+WSGAdd.m in Sources */,
 				CE9687961C7C49AD0054A45E /* UIColor+WSGAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
